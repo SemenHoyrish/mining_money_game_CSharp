@@ -15,6 +15,11 @@ namespace ConsoleApp15
         {
             _money += number;
         }
+        public void removeMoney(int number)
+        {
+            _money -= number;
+        }
+
 
         public bool buySomething(int cost)
         {
