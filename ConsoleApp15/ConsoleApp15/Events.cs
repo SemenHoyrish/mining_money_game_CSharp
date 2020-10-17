@@ -81,7 +81,7 @@ namespace ConsoleApp15
                     break;
             }
             Console.WriteLine($"Ваш баланс {_balance.getMoneyCount()}");
-            _pc.setDetail("GPU", new KeyValuePair<string, int>("no", 0));
+            //_pc.setDetail("GPU", new KeyValuePair<string, int>("no", 0));
         }
     }
 }
